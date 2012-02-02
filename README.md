@@ -8,11 +8,11 @@
 		],
 
 		templates: {
-			'say-hello': '<p>Hello, {{text}}!</p>'
+			'say-hello': '<p>Hello, {{user}}!</p>'
 		},
 
 		sayHello: function(target, elements, data, template) {
-			template(data.user, this.container);
+			template(data, this.container);
 		}
 	});
 
