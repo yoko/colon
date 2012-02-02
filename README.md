@@ -19,6 +19,6 @@
 
 	<html><body>
 		<section id="hello">
-			<p><button id="say-hello" data-user="octocat"></p>
+			<p><button id="say-hello" data-user="octocat">Say Hello</button></p>
 		</section>
 	</body></html>
